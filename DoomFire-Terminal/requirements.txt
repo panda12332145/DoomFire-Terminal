@@ -1,0 +1,2 @@
+colorama>=0.4.6 # pra windows, deixa colorido
+pytest>=7.0 # pra teste

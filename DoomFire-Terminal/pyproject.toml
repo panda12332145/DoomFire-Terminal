@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doomfire-terminal"
+version = "2.0.0"
+description = "fogo do doom no terminal, efeito brabo"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Panda12332145", email = "amandasyscallinjector@gmail.com"}
+]
+keywords = ["doom", "fire", "terminal", "ansi", "efeito"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "colorama>=0.4.6; platform_system=='Windows'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-benchmark>=4.0"]
+windows = ["colorama>=0.4.6"]
+
+[project.urls]
+Homepage = "https://github.com/panda12332145/DoomFire-Terminal"
+Repository = "https://github.com/panda12332145/DoomFire-Terminal"
+
+[project.scripts]
+doomfire-terminal = "src.execution.bootstrap_main_animation_loop_controller:bootstrap_main_animation_loop_controller"
+doomfire = "src.execution.bootstrap_main_animation_loop_controller:bootstrap_main_animation_loop_controller"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"
