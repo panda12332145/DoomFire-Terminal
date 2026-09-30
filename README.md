@@ -326,4 +326,4 @@ _"Conhecimento é poder, e a verdadeira liberdade vem do domínio sobre a inform
 ---
 
 📩 Para colaborações e projetos, entre em contato:  
-[📧 Enviar e‑mail](mailto:amandasyscallinjector@gmail.com?subject=Interesse%20no%20projeto%20DoomFire-Terminal%20v2.0&body=Olá%20Panda12332145,%20...)
+[📧 Enviar e‑mail](mailto:athos.cybersec@gmail.com?subject=Interesse%20no%20projeto%20DoomFire-Terminal%20v2.0&body=Olá%20Panda12332145,%20...)

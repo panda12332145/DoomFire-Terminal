@@ -9,7 +9,7 @@ description = "fogo do doom no terminal, efeito brabo"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Panda12332145", email = "amandasyscallinjector@gmail.com"}
+    {name = "Panda12332145", email = "athos.cybersec@gmail.com"}
 ]
 keywords = ["doom", "fire", "terminal", "ansi", "efeito"]
 classifiers = [
